@@ -7,10 +7,7 @@ public class Main {
         char charVariable = 'A';
         float floatVariable = 3.14159F;
 
-      /*  char T;
-        if (T = "Java Is Amazing"){
-            System.out.println("true");
-        }*/
+        boolean JavaIsAmazing = true;
         double price = 2.0;
         double tax = 0.3;
         int quantity = 2568;
