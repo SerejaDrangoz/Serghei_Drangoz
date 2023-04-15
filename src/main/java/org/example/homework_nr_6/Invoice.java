@@ -40,7 +40,7 @@ public class Invoice {
     }
 
     public void setQuantity(int quantity) {
-        //this.quantity = (quantity > 0) ? quantity : 0;
+
         if (quantity >= 0) {
             this.quantity = quantity;
         } else {
@@ -53,7 +53,7 @@ public class Invoice {
     }
 
     public void setPrice(double price) {
-       // this.price = (price > 0.0) ? price : 0.0;
+
         if (price >= 0) {
             this.price = price;
         } else {
