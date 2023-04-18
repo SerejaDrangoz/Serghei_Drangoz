@@ -37,6 +37,6 @@ public class Student extends Person{
     }
     public String toString() {
        // return String.format("Student " + super.toString(), year, fee);
-        return "Student: " + getName() + " address: " + getAddress() + " Program: " + program + " year: " + year + " fee: " + fee;
+        return "Student:  " + getName() + " address: " + getAddress() + " Program: " + program + " year: " + year + " fee: " + fee;
     }
 }

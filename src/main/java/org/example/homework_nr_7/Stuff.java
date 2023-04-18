@@ -26,6 +26,6 @@ public class Stuff extends Person{
         this.pay = pay;
     }
     public String toString() {
-        return "Stuff: " + getName() + " address: " + getAddress() + " school: " + school + " pay: " + pay;
+        return "Stuff:  " + getName() + " address: " + getAddress() + " school: " + school + " pay: " + pay;
     }
 }
