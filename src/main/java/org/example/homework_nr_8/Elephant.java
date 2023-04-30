@@ -1,6 +1,6 @@
 package org.example.homework_nr_8;
 
-public class Elephant implements Animal {
+public class Elephant extends Erbivor implements Animal {
 
 
     @Override
@@ -22,14 +22,25 @@ public class Elephant implements Animal {
     public void makeSound() {
         System.out.println("Elephant is ");
     }
+
+    @Override
+    public void playing() {
+        Animal.super.playing();
+    }
+
     Animal elephant = new Elephant();
-    elephant.eat();
+
+    @Override
+    void graze() {
+               System.out.println("The elephant is eating plants.");
+        }
+   /* elephant.eat();
     elephant.sleep();
     elephant.makeSound();
     elephant.move();
     elephant.playing();
     Animal.varietyInfo();
-
+*/
 }
 
 

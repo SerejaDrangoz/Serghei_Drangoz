@@ -7,15 +7,6 @@ public abstract class Erbivor{
     }
 
 }
-class Elephant extends Erbivor {
 
-    @Override
-    void graze() {
-        System.out.println("The elephant is eating plants.");
-    }
-    Erbivor elephant = new Elephant();
-    elephant.graze();
-    elephant.relaxation();
 
-}
 
